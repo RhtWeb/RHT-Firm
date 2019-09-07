@@ -1,0 +1,59 @@
+/* *{
+    display: none;
+} */
+
+.what-items{
+    display: block;
+}
+
+.what-item{
+    display: flex;
+}
+
+.what-item .btnr{
+    margin-right: 0.8rem;
+}
+
+.sm-size{
+    text-align: left;
+    padding-right: 2rem;
+}
+
+.psm{
+    text-align: left;
+    padding-right: 2rem;
+
+}
+
+@media(max-width: 500px){
+    nav{
+       flex-direction: column;
+    }
+
+    nav .items{
+       margin-top: 1rem;
+    }
+
+    .what-item{
+        margin-bottom: 1rem;
+    }
+
+    .what-item .btnr{
+        align-self: center;
+        padding: 20px;
+    }
+
+    .who-img{
+        display: none;
+    }
+
+    
+
+    .logos img:last-child{
+        display: none;
+    }
+
+    .connect{
+        min-width: 300px;
+    }
+}

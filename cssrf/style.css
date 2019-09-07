@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background: #333;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: #fff;
+    z-index: 1;
+}
+
+.logotxt{
+    color: #77e669d0;
+}
+
+.items{
+    display: flex;
+    list-style: none;
+    
+}
+
+.item a{
+    color: #fff;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+
+.item a:hover{
+    background: #77e669d0;
+}
+
+header{
+    background: url("../imgrf/showcase.jpg") no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* border: #77e669d0 solid; */
+    height: 100%;
+    width: 80%;
+   
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.1;
+}
+
+header .container h1,
+header .container p{
+    margin-bottom: 1.2rem;
+}
+
+.container .btn{
+    background: #77e669d0;
+    color: #fff;
+    padding: 0.6rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.container .btn:hover{
+    padding: 0.8rem;
+    background: #5ee24dd0;
+}
+
+#what h1{
+    text-align: center;
+    margin: 1.3rem 0;
+}
+
+.what-items{
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.what-item {
+   flex: 1;
+   text-align: center;
+   /* padding: 0 0.5rem; */
+  
+}
+
+.what-item .btnr{
+    display: inline-block;
+    background: #77e669d0;
+    color: #fff;
+    padding: 0.6rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    margin: 0.8rem 0;
+    
+    
+}
+
+.sm-size{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.psm{
+    font-size: 0.8rem;
+}
+
+#who{
+    display: flex;
+}
+
+#who div{
+    flex: 1;
+}
+
+.who-img{
+    background: url("../imgrf/people.jpg") no-repeat center center/cover;
+}
+
+.who-item{
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    line-height: 1.1;
+}
+
+.who-item h3{
+    /* text-align: center; */
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+
+.who-item h4{
+    margin: 0.5rem 0;
+}
+
+.who-item ul{
+    list-style: none;
+}
+
+.who-item ul li{
+    margin: 0.3rem;
+}
+
+#clients h3{
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+
+#clients .logos{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#clients .logos img{
+    height: 6rem;
+    /* display: block; */
+    margin: auto;
+    
+}
+
+#contact{
+    background: #5ee24dd0;
+}
+
+.connect{
+    max-width: 40%;
+    /* min-width: 400px; */
+    margin: auto;
+    border: #77e669d0 solid;
+    /* text-align: center; */
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+}
+
+.detail label,
+.detail input,
+.detail textarea,
+.connect button{
+    display: block;
+    width: 100%;
+}
+
+.detail input,
+.detail textarea,
+.connect button{
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border: none;
+}
+
+.connect button{
+    background: #333;
+    color: #fff;
+    margin: 1rem 0;
+}
+
+.connect h3{
+    font-size: 2rem;
+}
+
+
+footer{
+    padding: 1.1rem;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+

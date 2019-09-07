@@ -1,0 +1,22 @@
+/* *{
+    display: none;
+} */
+
+.what-item{
+    display: flex;
+}
+
+.what-item .btnr{
+    margin-right: 0.8rem;
+}
+
+.sm-size{
+    text-align: left;
+    padding-right: 2rem;
+}
+
+.psm{
+    text-align: left;
+    padding-right: 2rem;
+
+}
